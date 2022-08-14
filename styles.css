@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+:root {
+    --color1: #F66B0E;
+    --color2: #112B3C;
+    --color3: #205375;
+    --color4: #EFEFEF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.top{ 
+    min-width: 1000px;
+    width: 100%;
+    height: 5em;
+    position: fixed;
+    background-color: var(--color1);
+    display: inline-block;
+}
+
+.top img{
+    margin-left: 10px;
+    display: inline-block;
+    position: fixed;
+}
+
+.navbar{
+    margin-top: 20px;
+    margin-left: 230px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.navbar ul{
+    margin-right: 100px;
+    padding-top: 10px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.navbar li{
+    margin-top: 0;
+    margin-right: 100px;
+    display: inline-block;
+}
+.navbar a{
+    color: var(--color4);
+    text-decoration: none;
+}
+
+/*Efectos de los NAV*/
+a {
+    display: inline-block;
+    color: var(--colorFont);
+    transition: color 0.5s, transform 0.5s;
+}
+
+a:active {
+    color: red;
+    transform: scale(0.9);
+}
+
+a:hover {
+    transform: scale(2.05);
+}
+
+/*Efectos de los NAV*/
+
+.intro{
+    width: 100%;
+    height: 1000px;
+    background-image: url("./img/Kame-house.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+p{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+p:hover{
+    opacity: 100%;
+    transition: opacity 1s;
+}
+
+
+
+.article_third{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: var(--color2);
+}
+
+.article_third img{
+    margin-top: -360px;
+    margin-left: auto;
+    display: block;
+}
+
+.article_third article {
+    padding: auto;
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-right: 1000px;
+    color: var(--color4);
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.article_four{
+    width: 100%;
+    height: 500px;
+    color: var(--color4);
+    background-color: var(--color3);
+    overflow: hidden;
+}
+
+.article_four img{
+    margin-top: -359px;
+    margin-right: auto;
+    display: block;
+}
+
+.article_four article{
+    margin-left: 950px;
+    margin-top: 150px;
+    margin-right: 140px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.article_five{
+    width: 100%;
+    height: 500px;
+    background-color: var(--color1);
+    overflow: hidden;
+}
+
+.article_five img{
+    margin-top: -340px;
+    margin-left: auto;
+    display: block;
+}
+
+.article_five article{
+    margin-left: 80px;
+    margin-top: 150px;
+    margin-right: 1000px;
+    text-align: center;
+    color: var(--color4);
+    display: inline-block;
+}
+
+
+.footer{
+    color: var(--color4);
+    width: 100%;
+    height: 5em;
+    padding: 20px;
+    background-color: var(--color2);
+}
